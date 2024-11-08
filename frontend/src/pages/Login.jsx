@@ -22,7 +22,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://tour-back-2.onrender.com/api/auth/login', {
+      const response = await fetch('https://tour-booking-16c8.onrender.com/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
