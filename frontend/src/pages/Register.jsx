@@ -23,7 +23,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://tour-back-2.onrender.com/api/auth/register', {
+      const response = await fetch('https://tour-booking-16c8.onrender.com/api/auth/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
